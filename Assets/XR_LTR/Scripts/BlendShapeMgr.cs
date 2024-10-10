@@ -34,5 +34,6 @@ public class BlendShapeMgr : MonoBehaviour
         smr.SetBlendShapeWeight(0, slider1.value);
         smr.SetBlendShapeWeight(1, slider2.value);
         material.color = fcp.color;
+        print(material.color);
     }
 }
